@@ -1,34 +1,4 @@
-EESchema Schematic File Version 2  date 3/12/2013 10:06:21 PM
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 2  date 3/25/2013 8:05:11 PM
 LIBS:shardy
 EELAYER 25  0
 EELAYER END
@@ -36,7 +6,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title "wireless 3-channel solenoid controller business card"
-Date "13 mar 2013"
+Date "26 mar 2013"
 Rev "A"
 Comp "seth hardy :: propaneandelectrons.com"
 Comment1 ""
@@ -919,7 +889,7 @@ F 1 "VCC" H 9150 5750 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C5
+L CPOL C5
 U 1 1 4DCC5EFB
 P 9550 6200
 F 0 "C5" H 9600 6300 50  0000 L CNN
