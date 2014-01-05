@@ -13,6 +13,13 @@ Please do not call me in the middle of the night and breathe heavily into the ph
 
 ### Feature Summary
 
+* No microcontroller!
+* Uses XBee (Series 1 or 2, but 1 is easier) DIO lines to trigger outputs
+* Three DC load channels switched via MOSFETs
+* DC load power is optoisolated from control power
+* Status LEDs on each output channel, and for XBee Association/RSSI indicators
+* It has all my contact information on it so you know how to get in touch with me
+
 
 ### Design
 I do give these cards out to people during normal business card exchange rituals. So, I chose to use only through hole parts: people often have little or no experience assembling electronics, so it was designed to be as easy as possible. XBee radios were also chosen for their ease of use.
